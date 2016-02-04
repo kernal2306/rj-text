@@ -9,8 +9,9 @@ public class Main {
 	}
 	
 	public void Start(){
-		Window display = new Window();
-		
+		Window window = new Window();
+		window.display();
+		System.out.println("Yes it is working");
 	}
 
 }
